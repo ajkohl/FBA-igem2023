@@ -201,7 +201,7 @@ print(knockoutlist)
 # Set parameter Username
 # Academic license - for non-commercial use only - expires 2024-03-26
 
-# List of post
+# List of relevent genes to be processed
 # b1101
 # b2296
 # b1107
@@ -537,5 +537,5 @@ print(knockoutlist)
 # gene knockout result:
 # b3580:3.05606936416185
 
-# and so on with now change in values based on knockouts
+# and so on with no change in values based on knockouts
 
