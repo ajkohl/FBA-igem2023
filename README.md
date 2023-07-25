@@ -16,6 +16,6 @@ The shortcomings of a full genome knockout analysis led to the application of fl
 
 ## Identifying Shortcomings and Adapting Strategies
 
-Despite the improvements made, limitations surfaced while attempting gene knockout analyses on the adjusted model. The flux of target enzymes remained unaffected even when relevant genes were knocked out. This observation indicated potential inadequacies in the baseline model. Thus, it was concluded that a more dynamic FBA and wet lab experimental testing of different reactions would be indispensable to acquire the comprehensive data required to complete the baseline model and accomplish the project's objectives.
+Despite the improvements made, limitations surfaced while attempting gene knockout analyses on the adjusted model. The flux of target enzymes remained unaffected even when relevant genes were knocked out. This observation indicated potential inadequacies in the baseline model. Thus, since the only way forward was dynamic FBA, wet lab experimentation of enzyme fluxes for critical data was deemed an unwise use of their limited time and the FBA project was put aside.
 
 The identified challenges motivated a pivot from the FBA tools towards enhancing the Wiki and developing machine learning models to address IHP components of the project.
