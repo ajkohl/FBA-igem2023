@@ -1,12 +1,10 @@
 import cobra
 import gurobipy
 
-# Load the model from a JSON file
 model = cobra.io.load_json_model("/Users/aj/Desktop/Ecoli_TAL_variant.json")
 
 model.solver = 'gurobi'
 
-# Perform FBA
 solution = model.optimize()
 
 
@@ -15,7 +13,6 @@ solution = model.optimize()
 # # Print the objective value (e.g., growth rate)
 # print("Objective value:", solution.objective_value)
 
-# # Print the fluxes
 # for reaction in model.reactions:
 #     print(reaction.id, solution.fluxes[reaction.id])
 
