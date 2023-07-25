@@ -100,7 +100,6 @@ model.objective = 'HID'
 #         for gene in reaction.genes:
 #             variable_genes.add(gene.id)
 
-#     # Print the list of genes
 #     print(variable_genes)
 
 
@@ -133,10 +132,7 @@ for gene in model.genes:
         knockoutlist.append(gene.id)
 
     
-    # Reset the gene knockout (important!)
     model = model.copy()
-
-# After looping through all genes, you can analyze the output to see which knockouts increased production
 
 print(knockoutlist)
 
