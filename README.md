@@ -8,7 +8,7 @@ This repository offers an in-depth narrative of a research project focused on op
 
 ## Initial Hurdles and Strategic Shift
 
-The project's commencement was marked by a series of complexities while employing the traditional CobraPy solver. The occurrence of inconsistent values in knockout analysis and confounding results from identical analyses led to a decision to transition to the Gurobi solver. Through Linux terminal commands, the Gurobi solver was integrated into the existing setup, significantly improving the stability and consistency of the analysis results.
+The project's commencement was marked by a series of complexities while employing the traditional CobraPy solver. The occurrence of inconsistent values in knockout analysis and confounding results from identical analyses led to a decision to transition to the Gurobi solver. Through Linux terminal commands, the Gurobi solver was integrated into the existing setup, significantly improving the stability and consistency of the analysis results based on control tests.
 
 ## Flux Variability Analysis and Model Verification
 
