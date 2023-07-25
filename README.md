@@ -1,3 +1,25 @@
 # FBA-igem2023
 
-After trying the traditional cobrapy solver, I ran into many errors with inconsistent values being generated in knockout analysis and many confounding results from the same analysis being run multiple times. I was recommended by Zach to attempt using the gurobi solver instead. Integrating the gurobi solver into my environment and doing the backend work in linux terminal allowed me to edit elements in the cobrapy library to implement gurobi solver into the cobrapy FBA utilities. This yielded much more consistent results doing analyses but upon attempting gene knockout analysis on these models, even the relevent genes identified in the model to be related to the p coumaric to daidzein path did not change flux in the target enzymes when knocked out. Many different troubleshooting attempts, edits, and approaches led to the conclusion that dynamic FBA and testing the flux of different reactions by the wet lab team would be the only way to acquire the necessary data to complete the incomplete baseline model, which ended up being the problem. Running this analysis on different FBA models yielded results yet this model seemed not to be sufficient. As to not expend wet lab resources, this was dropped as a general FBA tool and work was shifted to wiki and building machine learning models for IHP project components.
+Project Overview: Pathway Optimization using Flux Balance Analysis
+
+Introduction
+
+This repository offers an in-depth narrative of a research project focused on optimizing the biosynthetic pathway from p-coumaric acid to daidzein. The endeavor utilizes Flux Balance Analysis (FBA) models and CobraPy solver, illustrating the journey from initial obstacles through adaptive problem-solving, to significant discoveries that inform subsequent work.
+
+Initial Hurdles and Strategic Shift
+
+The project's commencement was marked by a series of complexities while employing the traditional CobraPy solver. The occurrence of inconsistent values in knockout analysis and confounding results from identical analyses led to a decision to transition to the Gurobi solver. Through Linux terminal commands, the Gurobi solver was integrated into the existing setup, significantly improving the stability and consistency of the analysis results.
+
+Flux Variability Analysis and Model Verification
+
+The shortcomings of a full genome knockout analysis led to the application of flux variability analysis (FVA). This shift allowed the identification and concentration on relevant genes impacting the biosynthetic pathway. To ensure the credibility of this model and chosen method of analysis, sanity checks were performed. Key genes directly involved in the p-coumaric acid to daidzein pathway were knocked out, and the anticipated changes in flux for the targeted enzymes confirmed the model's accuracy and reliability.
+
+Identifying Shortcomings and Adapting Strategies
+
+Despite the improvements made, limitations surfaced while attempting gene knockout analyses on the adjusted model. The flux of target enzymes remained unaffected even when relevant genes were knocked out. This observation indicated potential inadequacies in the baseline model. Thus, it was concluded that a more dynamic FBA and wet lab experimental testing of different reactions would be indispensable to acquire the comprehensive data required to complete the baseline model and accomplish the project's objectives.
+
+The identified challenges motivated a pivot from the FBA tools towards enhancing biological databases such as Wiki and developing machine learning models to address specific components of the project.
+
+Conclusion
+
+This project highlights the dynamic nature of scientific exploration. Overcoming challenges, applying strategic changes, conducting targeted analyses, validating models, and continually adapting based on the findings are integral parts of this journey. It demonstrates the need for an all-encompassing approach in systems biology, combining rigorous data analysis with experimental testing, and the integration of diverse biological knowledge. The progress thus far has been promising, and there is great anticipation for the forthcoming work's outcomes.
