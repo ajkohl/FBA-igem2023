@@ -81,8 +81,6 @@ solution = model.optimize()
 
 knockoutlist = []
 
-# Set the objective to the reaction producing daidzein
-# replace 'daidzein_reaction' with the ID of the reaction producing daidzein
 model.objective = 'HID'
 
 
