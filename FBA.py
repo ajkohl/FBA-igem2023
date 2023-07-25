@@ -34,10 +34,8 @@ solution = model.optimize()
 #     # Get the metabolite from the model
 #     metabolite = model.metabolites.get_by_id(metabolite_id)
 
-#     # Print the id of the metabolite
 #     print(metabolite_id)
 
-#     # Print the name of the metabolite
 #     print(metabolite.name)
 
 #     # Print all the reactions that involve this metabolite
@@ -46,7 +44,6 @@ solution = model.optimize()
     
 #     print(" ")
 # def optimize(optreactid, solreactid):
-#     # Set the objective to the reaction id desired
 #     model.objective = 'TAL'
 
 #     # Optimize the model
