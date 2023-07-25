@@ -12,7 +12,7 @@ The project's commencement was marked by a series of complexities while employin
 
 Flux Variability Analysis and Model Verification
 
-The shortcomings of a full genome knockout analysis led to the application of flux variability analysis (FVA). This shift allowed the identification and concentration on relevant genes impacting the biosynthetic pathway. To ensure the credibility of this model and chosen method of analysis, sanity checks were performed. Key genes directly involved in the p-coumaric acid to daidzein pathway were knocked out, and the anticipated changes in flux for the targeted enzymes confirmed the model's accuracy and reliability.
+The shortcomings of a full genome knockout analysis led to the application of flux variability analysis (FVA). This shift allowed the identification and concentration on relevant genes impacting the biosynthetic pathway. To ensure the credibility of this model and chosen method of analysis, sanity checks were performed. Key genes directly involved in the p-coumaric acid to daidzein pathway were knocked out, and the anticipated changes in flux for the targeted enzymes confirmed the model was working.
 
 Identifying Shortcomings and Adapting Strategies
 
