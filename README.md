@@ -18,4 +18,4 @@ The shortcomings of a full genome knockout analysis led to the application of fl
 
 Despite the improvements made, limitations surfaced while attempting gene knockout analyses on the adjusted model. The flux of target enzymes remained unaffected even when relevant genes were knocked out. This observation indicated potential inadequacies in the baseline model. Thus, since the only way forward was dynamic FBA, wet lab experimentation of enzyme fluxes for critical data was deemed an unwise use of their limited time and the FBA project was put aside. The FBA and gene knockout analysis did however produce promising results when the target was set to other pathways within E Coli, indicating potential utilization as an IGEM software development.
 
-The identified challenges motivated a pivot from the FBA tools towards enhancing the Wiki and developing machine learning models to address IHP components of the project.
+The identified challenges motivated a pivot from the FBA tools towards enhancing the Wiki and developing predictive machine learning models to support IHP components of the project.
