@@ -19,7 +19,3 @@ The shortcomings of a full genome knockout analysis led to the application of fl
 Despite the improvements made, limitations surfaced while attempting gene knockout analyses on the adjusted model. The flux of target enzymes remained unaffected even when relevant genes were knocked out. This observation indicated potential inadequacies in the baseline model. Thus, it was concluded that a more dynamic FBA and wet lab experimental testing of different reactions would be indispensable to acquire the comprehensive data required to complete the baseline model and accomplish the project's objectives.
 
 The identified challenges motivated a pivot from the FBA tools towards enhancing biological databases such as Wiki and developing machine learning models to address IHP components of the project.
-
-## Conclusion
-
-This project highlights the dynamic nature of scientific exploration. Overcoming challenges, applying strategic changes, conducting targeted analyses, validating models, and continually adapting based on the findings are integral parts of this journey. It demonstrates the need for an all-encompassing approach in systems biology, combining rigorous data analysis with experimental testing, and the integration of diverse biological knowledge. The progress thus far has been promising, and there is great anticipation for the forthcoming work's outcomes.
