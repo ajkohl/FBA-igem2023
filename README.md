@@ -14,7 +14,7 @@ The project's commencement was marked by a series of complexities while employin
 
 The extensive time and computing power requirements of a full genome knockout analysis led to the application of flux variability analysis (FVA). This shift allowed the identification and concentration on relevant genes impacting the biosynthetic pathway. To ensure the credibility of this model and chosen method of analysis, sanity checks were performed. Key genes directly involved in the p-coumaric acid to daidzein pathway were knocked out, and the anticipated changes in flux for the targeted enzymes confirmed the model was working.
 
-## Identifying Shortcomings and Adapting Strategies
+## Identifying Shortcomings and Changing Focus
 
 Despite the improvements made, limitations surfaced while attempting gene knockout analyses on the adjusted model. The flux of target enzymes remained unaffected even when relevant genes were knocked out. This observation indicated potential inadequacies in the baseline model or perhaps a compensating multi-tiered system that prevented major changes form the loss of a single gene to the target pathway. Thus, since the only way forward that I could think of was dynamic FBA, wet lab experimentation of enzyme fluxes for critical data was deemed an unwise use of their limited time and the FBA project was put aside. The FBA and gene knockout analysis did however produce promising results when the target was set to other pathways within E Coli, indicating potential utilization as an IGEM software development.
 
