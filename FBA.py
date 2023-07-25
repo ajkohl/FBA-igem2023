@@ -139,7 +139,6 @@ print(knockoutlist)
 
 
 # pathwayreactionlist = ["DZR","HID","IFS","CHI","CHR","4CL"]
-# # Define the reaction ID you are looking for
 # for reaction_id in pathwayreactionlist:
 
 #     # Get the reaction from the model
@@ -152,13 +151,8 @@ print(knockoutlist)
 
 
 
-# Set the objective to maximize daidzein production
-# Replace 'daidzein_reaction' with the ID of the reaction producing daidzein
-
-
 # model.objective = 'HID'
 
-# # Optimize the model without any knockouts and store the original objective value
 # original_solution = model.optimize()
 # original_production = original_solution.objective_value
 
@@ -171,12 +165,10 @@ print(knockoutlist)
 #     # Optimize the model with the reaction knocked out
 #     knockout_solution = model.optimize()
     
-#     # If daidzein production increased, print the reaction
 #     if knockout_solution.objective_value > original_production:
 #         original_production = knockout_solution.objective_value
 #         print(f"Knocking out reaction {reaction.id} increased daidzein production to {knockout_solution.objective_value}")
     
-#     # Reset the reaction knockout by reloading the model (important!)
 #     model = cobra.io.load_json_model("/Users/aj/Desktop/Ecoli_TAL_variant.json")
 #     model.objective = 'HID'
 
